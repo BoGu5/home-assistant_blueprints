@@ -7,12 +7,13 @@ blueprint:
   input:
     remote:
       name: Remote
-      description: Senic remote
+      description: FOH remote
+      default: '' 
       selector:
         device:
-          integration: deconz
-          manufacturer: PhilipsFoH
-          model: 
+          #integration: deconz
+          #manufacturer: PhilipsFoH
+          #model: 
           #model: FOHSWITCH
     button_one_single_press:
       name: 1 button - Single press
